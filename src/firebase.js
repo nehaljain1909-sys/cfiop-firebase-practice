@@ -1,9 +1,4 @@
-// Firebase initialization
-//
-// Config values are read from environment variables (see .env.example).
-// Create a .env file in the project root (never commit it — it's in .gitignore)
-// with your actual Firebase project's config values, prefixed with VITE_
-// so Vite exposes them to the client bundle.
+
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
